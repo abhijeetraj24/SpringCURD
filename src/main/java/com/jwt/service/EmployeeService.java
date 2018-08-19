@@ -1,10 +1,10 @@
-package com.jwt.dao;
+package com.jwt.service;
 
 import java.util.List;
 
 import com.jwt.model.Employee;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
 	public void addEmployee(Employee employee);
 	 
@@ -12,8 +12,7 @@ public interface EmployeeDAO {
  
     public void deleteEmployee(Integer employeeId);
  
-    public Employee updateEmployee(Employee employee);
- 
     public Employee getEmployee(int employeeid);
-    
+ 
+    public Employee updateEmployee(Employee employee);
 }

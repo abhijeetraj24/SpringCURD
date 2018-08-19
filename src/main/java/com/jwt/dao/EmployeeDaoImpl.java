@@ -1,4 +1,4 @@
-package com.awt.dao;
+package com.jwt.dao;
 
 import java.util.List;
 
