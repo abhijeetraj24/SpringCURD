@@ -17,7 +17,7 @@
             <tr>
                 <td>Name:</td>
                 <td><form:input path="name" /></td>
-            </tr>
+            </tr>	
             <tr>
                 <td>Email:</td>
                 <td><form:input path="email" /></td>
